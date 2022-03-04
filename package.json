@@ -1,0 +1,25 @@
+{
+  "name": "babelsort",
+  "version": "1.0.0",
+  "description": "Parse any format to JSON",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "cmake-js compile"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AirSW/Babelsort.git"
+  },
+  "author": "Shay & Ori",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AirSW/Babelsort/issues"
+  },
+  "homepage": "https://github.com/AirSW/Babelsort#readme",
+  "dependencies": {
+    "bindings": "^1.5.0",
+    "cmake-js": "^6.3.0",
+    "nan": "^2.15.0"
+  }
+}
